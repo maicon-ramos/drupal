@@ -1,3 +1,8 @@
+Compucorp Drupal Themer Test
+Task 1: Drupal themeing
+
+Client: Open charity is an organisation that hosts events in London about open source software and solution for charities.
+
 I've used some HTML5 semantics, some of the CSS3 transitions.
 Dividing the theme in the same blocks of CMS Drupal,
 The footer created 2 blocks (Social media and copyrights)
