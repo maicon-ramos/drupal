@@ -1,4 +1,5 @@
 Compucorp Drupal Themer Test
+
 Task 1: Drupal themeing
 
 Link: https://maiconramos.com.br/open-charity/
@@ -16,3 +17,13 @@ Prefer to use CSS FLEX to make a structure, for ease and fluency.
 
 I used as the starting point the Framework 3 theme for Drupal 7.
 Framework is a blank screen for theme developers.
+
+Task 2: Extending a Bootstrap-based theme
+
+Link: https://maiconramos.com.br/geek-label/
+
+Client: Geek label is a new design agency that requires a new website.
+
+I used it as a starting point for the Bootstrap Barrio theme for Drupal 7. With version 4 alpha of Bootstrap.
+
+I used CSS preprocessor LESS, and mixed some CSS methodologies.
