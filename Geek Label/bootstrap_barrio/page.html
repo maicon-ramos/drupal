@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geek Label</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="" />
+</head>
+<body>
+<!--
+<nav>
+    <a href="#" title="Geek Label"><img class="logo" src="assets/images/logo-open-charity.png" alt="Logo Open Charity" /></a>
+    <ul class="menu">
+        <li><a href="#about" title="About Open Charity">About Open Charity</a></li>
+        <li><a href="#blog" title="The blog">The blog</a></li>
+        <li><button type="button" class="btn btn-outline">Join Us</button></li>
+    </ul>
+    <ul class="menu-mobile">
+        <div class="hamburguer">
+            <div class="lines line-top"></div>
+            <div class="lines line-mid"></div>
+            <div class="lines line-bottom"></div>
+        </div>
+        <li><a href="#about" title="About Open Charity">About Open Charity</a></li>
+        <li><a href="#blog" title="The blog">The blog</a></li>
+        <li><button type="button" class="btn btn-outline">Join Us</button></li>
+    </ul>
+
+</nav>
+-->
+<header class="intro">
+    <div class="container full">
+                    <div class="description align-self-center mx-auto">
+                        <img class="img-fluid mb-5" src="images/logo-geek-label.png" />
+                        <h3 class="mt-5">A team of self confessed geeks who are all about great digital design</h3>
+                    </div>
+                    <a class="arrow mx-auto" href="#about" title="View more"><img src="images/arrow.png" /></a>
+    </div>
+</header>
+<section class="pass1">
+    <div class="container full">
+        <div class="align-self-center mx-auto">
+            <img class="img-fluid mb-5" src="images/logo-geek-label.png" />
+            <p>Some agencies love <span class="skill">design</span>, but don’t know how to build</p>
+        </div>
+        <a class="arrow mx-auto" href="#about" title="View more"><img src="images/arrow.png" /></a>
+    </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    // Menu
+    $('nav .hamburguer').click(function() {
+        $(this).toggleClass('expanded close-hamburguer').siblings('li').slideToggle();
+    });
+    // Scroll
+    $('a[href*="#"]')
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function(event) {
+            if (
+                location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                &&
+                location.hostname == this.hostname
+            ) {
+                // Figure out element to scroll to
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                // Does a scroll target exist?
+                if (target.length) {
+                    // Only prevent default if animation is actually gonna happen
+                    event.preventDefault();
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000, function() {
+                        // Callback after animation
+                        // Must change focus!
+                        var $target = $(target);
+                        $target.focus();
+                        if ($target.is(":focus")) { // Checking if the target was focused
+                            return false;
+                        } else {
+                            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                            $target.focus(); // Set focus again
+                        };
+                    });
+                }
+            }
+        });
+
+</script>
+
+</body>
+</html>
