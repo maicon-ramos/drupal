@@ -2,7 +2,8 @@ Compucorp Drupal Themer Test
 
 Task 1: Drupal themeing
 
-Link: https://maiconramos.com.br/open-charity/
+Link: https://maiconramos.com.br/portfolio/tema-para-drupal-open-charity/
+
 
 Client: Open charity is an organisation that hosts events in London about open source software and solution for charities.
 
@@ -20,7 +21,7 @@ Framework is a blank screen for theme developers.
 
 Task 2: Extending a Bootstrap-based theme
 
-Link: https://maiconramos.com.br/geek-label/
+Link: https://maiconramos.com.br/portfolio/tema-drupal-geek-label/
 
 Client: Geek label is a new design agency that requires a new website.
 
